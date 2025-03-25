@@ -1,0 +1,125 @@
+.principalregistro{
+    background-color: blueviolet    ;
+    width: 100%;
+    height: 600px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.registro{
+
+    border: 1px solid black;
+    border-radius: 15px 15px 15px 15px;
+    width: 320px;
+    height: 500px;
+    animation-name: color;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+}
+
+@keyframes color{
+
+    0%{
+        background: linear-gradient(70deg, yellow, red, indigo);
+        position: absolute;
+    }
+    25%{
+        background: linear-gradient(70deg, yellow, red, indigo);
+        position: absolute;
+    }
+    50%{
+        background: linear-gradient(70deg, yellow, red, indigo);
+        position: absolute;
+    }
+    100%{
+        background: linear-gradient(70deg, yellow, red, indigo);
+        position: absolute;
+    }
+        
+}
+
+.cajatexto{
+    width: 305px;
+    height: 42px;
+    font-size: 20px;
+    background-color: white;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    outline: none;
+    border-bottom: 2px solid black; 
+    margin: 5px;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.logor{
+    position: relative;
+    left: 125px;
+    top:20px ;
+}
+
+.botonregistro{
+
+    align-items: center;
+    width: 150px;
+    padding: 10px;
+    background-color: black;
+    color: blueviolet;
+    border-radius: 50px;
+    cursor: pointer;
+    position: relative;
+    left: 80px;
+    top: 5px;
+}
+
+.botonregistro:hover{
+    background-color: blueviolet;
+    color: black;
+}
+
+.checkbox{
+
+    width: 30px;
+    height: 30px;
+    position: relative;
+    margin-left: 10px;
+}
+
+.recuerda{
+
+    position: relative;
+    left: 40px;
+    top: -27px;
+}
+
+.barraregistro{
+
+    margin-top: 0px;
+    background-color: black;
+    border-radius: 15px 15px 15px 15px;
+    width: 100%;
+    height: 60px;
+    opacity: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    
+}
+
+.botonretroceso{
+
+margin-top: -10px;
+margin-left: 10px;
+}
+
+.botonis{
+
+    margin-top: 3px;
+    margin-right: 15px;
+    font-size: 20px;
+
+}
